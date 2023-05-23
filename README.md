@@ -16,5 +16,6 @@
 
 #### View define as estruturas e o comportamento das telas, é o que o usuário interage.
 ##### As comunicações se dão da seguinte forma:
+<img align='center' alt="dancing" src="https://github.com/majuliah/Sales-System/blob/main/readme-images/mvc%20structure.png?raw=true" width="300"/>
 
 
