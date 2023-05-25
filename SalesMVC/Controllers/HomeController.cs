@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
+using SalesMVC.Models.ViewModels;
 
 namespace SalesMVC.Controllers
 {
@@ -18,6 +19,7 @@ namespace SalesMVC.Controllers
         public IActionResult About()
         {
             ViewData["Message"] = "Your application description page.";
+            ViewData["Email"] = "pageEmail@outlook.com";
 
             return View();
         }
