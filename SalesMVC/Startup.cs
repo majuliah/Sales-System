@@ -14,6 +14,7 @@ using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using SalesMVC.Data;
 using SalesMVC.Services;
+using SalesWebMvc.Services;
 
 namespace SalesMVC
 {
@@ -45,6 +46,7 @@ namespace SalesMVC
             services.AddScoped<SeedingService>();
             services.AddScoped<SellerService>();
             services.AddScoped<DepartmentService>();
+            services.AddScoped<SalesRecordService>();
 
         }
 
